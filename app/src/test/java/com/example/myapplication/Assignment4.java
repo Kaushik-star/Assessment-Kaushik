@@ -40,7 +40,7 @@ public class Assignment4 {
     public void setUp() throws MalformedURLException {
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("automationName", "UiAutomator2");
-        capabilities.setCapability("udid", "emulator-5554");
+        //capabilities.setCapability("udid", "emulator-5554");
         capabilities.setCapability("deviceName", "NexusAVD");
         capabilities.setCapability("platformName", "Android");
         capabilities.setCapability(CapabilityType.BROWSER_NAME, "CHROME");
